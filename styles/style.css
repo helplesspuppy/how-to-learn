@@ -108,3 +108,161 @@ a:link {
   margin-right: 0;
   margin-top: 80px;
 }
+
+.description {
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+}
+
+.description__two-columns {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.two-colums__brief {
+display: flex column; 
+width: 175px;
+color:#2f80ed;
+}
+
+.two-columns__brief-title {
+line-height: 1.2;
+font-size: 18px;
+font-weight: normal;
+margin-top: 0;
+}
+
+
+.two-columns__main-text {
+  display: flex;
+  flex-direction:column;
+  width: 80%;
+  min-width: 784px;
+  justify-content: space-between;
+  min-height: 360px;
+}
+
+.two-columns__paragraph{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin:0;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.digits {
+  margin: 100px auto 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.digits__title {
+  border: red 1px solid;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+  width: 60%;
+  margin: 0 auto 20px;
+}
+
+.digits__subtitle {
+  border: red 1px solid;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 60%;
+  margin: 0 auto 0;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: red 1px solid;
+  width:1100px;
+  margin: 0 auto 0;
+  justify-content: space-between;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__heading {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.table__text {
+  margin: 20px 0 0 0;
+}
+
+.feynman {
+  background-color: #f2f2f2;
+  position: relative;
+  border: red 1px solid;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+  height: 890px;
+}
+
+.feynman__title {
+  border: red 1px solid;
+  width:648px;
+  text-align:center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  margin: 100px 0 70px;
+  z-index: 2;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+  z-index: 2;
+}
+
+.feynman__link {
+  color: #2f80ed;
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 2;
+}
+
+.feynman__portrait {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  object-fit: fill;
+  z-index: 1;
+}
