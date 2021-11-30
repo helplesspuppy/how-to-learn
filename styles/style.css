@@ -114,7 +114,7 @@ a:link {
 }
 
 .two-colums__brief {
-display: flex column; 
+display: flex column;
 width: 175px;
 color:#2f80ed;
 }
@@ -256,7 +256,7 @@ margin-top: 0;
 .kaufman {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #1f1f1f;;
+  background-color: #1f1f1f;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -369,9 +369,6 @@ margin-top: 0;
   font-weight:700;
 }
 
-.column-links {
-  color: white;
-}
 
 .footer__column_content_info {
   display: flex;
@@ -379,6 +376,7 @@ margin-top: 0;
 }
 
 .column-links {
+  color: white;
   list-style-type: none;
   margin: 20px 0 16px;
   padding: 0;
