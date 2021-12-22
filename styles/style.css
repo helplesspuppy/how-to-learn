@@ -1,375 +1,70 @@
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
-
-
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  position: relative;
-  background-color: #f2f2f2;
-}
-
-.logo {
- background-image: url(../images/logo_place_header.svg);
-  height: 32px;
-  width: 183px;
-}
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-}
-
-.header__title {
-  position: relative;
-  left: 64px;
-  width: 730px;
-  z-index: 3;
-  font-weight: 700;
-  font-size: 102px;
-  line-height: 96px;
-  margin: 0;
-}
-
-
-.header__subtitle {
-  width: 388px;
-  position: absolute;
-  left: 64px;
-  bottom: 30px;
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: normal;
-  z-index: 2;
-  margin: 0;
-}
-
-
-.header__link {
-  color:#2f80ed;
-  text-decoration: none;
-}
-
-.header__main-illustration-block {
-  display: flex;
-  position: absolute;
-  align-items: flex-end;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-  
-}
-
-.header__main-illustration {
-  object-fit:fill;
-  width:765px;
-  height:608px;
-
-}
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  display: flex;
-  position: absolute;
-  align-items: flex-end;
-  top: 64px;
-  right: 0;
-  height: 568px;
-  width: 568px;
-  background-color:#2f80ed;
-}
-
-
-
-.description {
-  margin-top: 100px;
-  position: relative;
-  display: flex;
-}
-
-.two-columns {
-  display: flex;
-  width: 80%;
-  margin: auto;
-  justify-content: space-between;
-}
-
-.two-colums__brief {
-width: 175px;
-color:#2f80ed;
-line-height: 1.2;
-font-size: 18px;
-font-weight: normal;
-margin: 0;
-}
-
-
-.two-columns__main-text {
-  display: flex;
-  flex-direction:column;
-  width: 80%;
-  min-width: 784px;
-}
-
-.two-columns__paragraph:first-child {
-  margin-top: 0;
-}
-
-.two-columns__paragraph{
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin-top:30px;
-  margin-bottom: 0;
-}
-
-.two-columns__span-accent {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.digits {
-  margin: 100px auto 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.section-title {
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 700;
-  width: 60%;
-  margin: 0 auto 20px;
-}
-
-.section-subtitle {
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  width: 60%;
-  margin: 0 auto 0;
-}
-
-.table {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width:1100px;
-  margin: 0 auto 0;
-  justify-content: space-between;
-}
-
-.table__cell {
-  width: 250px;
-  margin-top: 60px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table__heading {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.table__text {
-  margin: 20px 0 0 0;
-}
-
-.feynman {
-  background-color: #f2f2f2;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  min-height: 890px;
-}
-
-.feynman__title {
-  width:648px;
-  text-align:center;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bold;
-  margin: 100px 0 70px;
-  z-index: 2;
-}
-
-.feynman__subtitle {
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  margin: 0;
-  z-index: 2;
-}
-
-.feynman__link {
-  text-decoration:none;
-  color: #2f80ed;
-  position: absolute;
-  right: 48px;
-  top: 50%;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  z-index: 2;
-}
-
-.feynman__portrait {
-  width: 867px;
-  height: 637px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  object-fit: fill;
-  z-index: 1;
-}
-
-.kaufman {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #1f1f1f;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-  
-}
-
-
-.section-title_theme_dark{
-  color: white;
-}
-
-
-.section-subtitle_theme_dark {
-  color:white;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-  z-index: 2;
-}
-
-.table__heading_theme_dark {
-  color: white;
-  
-}
-
-.table__text_theme_dark {
-  color: white;
-}
-
-.kaufman__triangle {
-  background-image: url(../images/kaufman-triangle.svg);
-  position: absolute;
-  height: 877px;
-  width: 877px;
-  right:-210px;
-  top:0;
-  z-index: 1;
-  background-size: contain;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  background-color: #1f1f1f;
-  padding: 60px 0 40px 0;
-  min-height: 350px;
-  box-sizing: border-box;
-}
-
-.footer__columns {
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  
-}
-
-.footer__column_content_copyright {
-  flex-basis: 711px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.logo_place_footer {
-  background-image: url(../images/logo_place_footer.svg);
-  height: 35px;
-  width: 183px;
-}
-
-.footer__author { 
-  color: white;
-  margin: 18px 0 18px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.footer__column-heading {
-  color: white;
-  margin: 0;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight:700;
-}
-
-
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column-links {
-  color: white;
-  list-style-type: none;
-  margin: 20px 0 16px;
-  padding: 0;
-}
-
-.footer__social-icon {
-  height: 16px;
-  width: 16px;
-  margin-right: 10px;
-}
-
-.footer__column-link {
-  text-decoration: none;
-  color: white;
-  padding: 0;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__square-pic/header__square-pic.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/header/__main-illustration-block/header__main-illustration-block.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../blocks/two-colums/__brief/two-colums__brief.css);
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
+@import url(../blocks/feynman/__portrait/feynman__portrait.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark\ .css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_info.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/rotation/rotation.css);
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/сards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/oakley/oakley.css);
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/khan/__title/khan__title.css);
+@import url(../blocks/khan/__quote/khan__quote.css);
+@import url(../blocks/khan/__quote-author/khan__quote-author.css);
+@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../blocks/khan/__container/khan__container.css);
+@import url(../blocks/khan/__buy-link/khan__buy-link.css);
+@import url(../blocks/khan/__book-pic/khan__book-pic.css);
+@import url(../blocks/khan/__book-container/khan__book-container.css);
+@import url(../blocks/khan/__author/khan__author.css);
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);

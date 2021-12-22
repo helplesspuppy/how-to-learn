@@ -1,0 +1,9 @@
+.resources {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    padding-top: 100px;
+    padding-bottom: 217px;
+}
