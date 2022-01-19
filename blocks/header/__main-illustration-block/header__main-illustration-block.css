@@ -1,9 +1,0 @@
-.header__main-illustration-block {
-  display: flex;
-  position: absolute;
-  align-items: flex-end;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-  
-}

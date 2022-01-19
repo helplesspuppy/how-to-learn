@@ -2,12 +2,12 @@
     text-decoration:none;
     color: #2f80ed;
     line-height: 42px;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: normal;
+    transition: .6s;
+    align-self: flex-start;
 }
 
-
 .khan__buy-link:hover {
-    transition: .6s;
     opacity: .6;
   }

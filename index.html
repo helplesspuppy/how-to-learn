@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 
@@ -17,8 +17,8 @@
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
         жизни?<a href="#" class="header__link"> Узнать →</a>
       </p>
-      <div class="header__main-illustration-block"><img src="./images/header-image.png" alt=""
-          class="header__main-illustration"></div>
+      <img src="./images/header-image.png" alt="Мальчик с картины Опять двойка"
+          class="header__main-illustration">
 
       <div class="header__square-pic rotation"></div>
 
@@ -44,31 +44,31 @@
         <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
         <div class="cards">
           <div class="cards__item">
-            <img src="./images_sprint-2/cards-attention.png" class="cards__image"
+            <img src="./images/cards-attention.png" class="cards__image"
               alt="Картинка книги '101 сочинение которые изменят ваше мышление' ">
             <h4 class="cards__title">Два вида внимания</h4>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и
               рассеянное мышление.</p>
           </div>
           <div class="cards__item">
-            <img src="./images_sprint-2/cards-recall.png" class="cards__image" alt="Картинка мраморной статуи">
+            <img src="./images/cards-recall.png" class="cards__image" alt="Картинка мраморной статуи">
             <h4 class="cards__title">Recall</h4>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции
               памяти.</p>
           </div>
           <div class="cards__item">
-            <img src="./images_sprint-2/cards-interliving.png" class="cards__image" alt="Картинка огромного помещения">
+            <img src="./images/cards-interliving.png" class="cards__image" alt="Картинка огромного помещения">
             <h4 class="cards__title">Интерливинг</h4>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </div>
           <div class="cards__item">
-            <img src="./images_sprint-2/cards-question.png" class="cards__image" alt="Картинка белой огромной комнаты">
+            <img src="./images/cards-question.png" class="cards__image" alt="Картинка белой огромной комнаты">
             <h4 class="cards__title">Вопросы</h4>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас
               действительно волнует.</p>
           </div>
           <div class="cards__item">
-            <img src="./images_sprint-2/cards-competence.png" class="cards__image"
+            <img src="./images/cards-competence.png" class="cards__image"
               alt="Картинка белой огромной комнаты">
             <h4 class="cards__title">Иллюзия компетентности</h4>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только
@@ -80,9 +80,9 @@
         <h2 class="section-title">Видео нa TED</h2>
         <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
         <div class="video__iframes">
-          <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" class="video__iframe"
+          <iframe  src="https://www.youtube.com/embed/arj7oStGLkU" class="video__iframe"
             allowfullscreen></iframe>
-          <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" class="video__iframe"
+          <iframe  src="https://www.youtube.com/embed/5MgBikgcWnY" class="video__iframe"
             allowfullscreen></iframe>
         </div>
       </section>
@@ -155,7 +155,7 @@
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <img src="./images_sprint-2/khan-book.jpg" class="khan__book-pic"
+            <img src="./images/khan-book.jpg" class="khan__book-pic"
               alt="Книга Салмана Хана 'Весь мир - школа'">
             <a href="#" class="khan__buy-link">Купить книгу&rarr;</a>
           </div>
@@ -213,10 +213,10 @@
         <h2 class="section-title">Полезные ресурсы</h2>
         <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
         <div class="resources__logo-zone">
-          <img src="./images_sprint-2/logo/resources-arzamas.svg" class="resources__logo" alt="">
-          <img src="./images_sprint-2/logo/resources-n1.svg" class="resources__logo" alt="">
-          <img src="./images_sprint-2/logo/resources-strelka.svg" class="resources__logo" alt="">
-          <img src="./images_sprint-2/logo/resources-polka.svg" class="resources__logo" alt="">
+          <img src="./images/logo/resources-arzamas.svg" class="resources__logo" alt="Лого Arzamas">
+          <img src="./images/logo/resources-n1.svg" class="resources__logo" alt="Лого n1">
+          <img src="./images/logo/resources-strelka.svg" class="resources__logo" alt="Лого Strelka">
+          <img src="./images/logo/resources-polka.svg" class="resources__logo" alt="Лого polka">
         </div>
       </section>
     </main>
@@ -229,7 +229,6 @@
         </div>
         <div class="footer__column footer__column_content_info">
           <h4 class="footer__column-heading">О Практикуме</h4>
-          <!-- Надеюсь, я правильно понял, что нужно обернуть, но не перенести класс. Потому что мы используем его повторно в списке ниже, который не является навигационным элементом сайта -->
           <nav>
             <ul class="footer__column-links">
               <li><a href="#" class="footer__column-link">Главная</a></li>
@@ -243,11 +242,11 @@
 
           <ul class="footer__column-links">
             <li><a href="#" class="footer__column-link"><img src="./images/facebook_color_white.svg"
-                  class="footer__social-icon" alt="">Facebook</a></li>
+                  class="footer__social-icon" alt="Ссылка на фейсбук">Facebook</a></li>
             <li><a href="#" class="footer__column-link"><img src="./images/vk_color_white.svg"
-                  class="footer__social-icon" alt="">Вконтакте</a></li>
+                  class="footer__social-icon" alt="Ссылка на ВК">Вконтакте</a></li>
             <li><a href="#" class="footer__column-link"><img src="./images/instagram_color_white.svg"
-                  class="footer__social-icon" alt="">Instagram</a></li>
+                  class="footer__social-icon" alt="Ссылка на инстаграм">Instagram</a></li>
           </ul>
 
         </div>
